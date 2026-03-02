@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandEdge | Branding Agency Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><path d='M30 30 L70 30 L70 70 L30 70 Z' fill='none' stroke='white' stroke-width='8'/><path d='M50 30 L50 70' fill='none' stroke='white' stroke-width='8'/></svg>">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="home1.html">
+                <i class="bi bi-intersect me-2"></i> BrandEdge
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">BrandEdge</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="home1.html">Home 1</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home2.html">Home 2</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-2">
+                        <a href="login.html" class="btn btn-outline-primary shadow-sm">Login</a>
+                        <a href="signup.html" class="btn btn-primary shadow-sm">Sign Up</a>
+                        <button class="btn btn-link nav-link px-2" id="themeToggle">
+                            <i class="bi bi-moon-stars-fill fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Branding Hero -->
+    <header class="hero-section text-center text-white py-5"
+        style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/img/hero_bg_1.jpg') center/cover;">
+        <div class="container py-5">
+            <h1 class="display-2 fw-bold mb-4">Identity That Inspires</h1>
+            <p class="lead mb-5 opacity-75 mx-auto" style="max-width: 700px;">We specialize in crafting minimalist yet
+                powerful brand identities that resonate with your global audience and stand the test of time.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#portfolio" class="btn btn-primary btn-lg px-4">See Portfolio</a>
+                <a href="about.html" class="btn btn-outline-primary btn-lg px-4">Agency Story</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Branding Focus: Portfolio -->
+    <section id="portfolio" class="py-5 bg-body">
+        <div class="container py-5">
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <h2 class="fw-bold display-5">Visual Stories</h2>
+                    <p class="text-muted">A gallery of our most impactful brand transitions.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <button class="btn btn-outline-primary">Browse All Branding Projects</button>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 overflow-hidden shadow-sm">
+                        <img src="assets/img/branding_1.jpg" class="card-img uniform-height" alt="Branding Project 1">
+                        <div
+                            class="card-img-overlay d-flex flex-column justify-content-end bg-dark bg-opacity-25 text-white">
+                            <h5 class="fw-bold mb-0">Nexus Identity</h5>
+                            <small>Tech Industry Rebrand</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 overflow-hidden shadow-sm">
+                        <img src="assets/img/cosmetics_branding.jpg" class="card-img uniform-height"
+                            alt="Branding Project 2">
+                        <div
+                            class="card-img-overlay d-flex flex-column justify-content-end bg-dark bg-opacity-25 text-white">
+                            <h5 class="fw-bold mb-0">Aura Cosmetics</h5>
+                            <small>Luxury Brand Concept</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branding Focus: Our Expertise -->
+    <section class="py-5 bg-body-secondary">
+        <div class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1000&fm=jpg"
+                        class="img-fluid rounded-5 shadow-lg" alt="Branding Expertise">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold display-6 mb-4">Strategic Brand Positioning</h2>
+                    <p class="lead text-muted mb-4">We don't just design logos; we build ecosystems. Our process
+                        involves deep market research to ensure your brand stands out in a crowded marketplace.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center p-3 bg-body rounded-4 shadow-sm">
+                                <i class="bi bi-search text-primary fs-3 me-3"></i>
+                                <span class="fw-bold">Market Analysis</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center p-3 bg-body rounded-4 shadow-sm">
+                                <i class="bi bi-person-badge text-primary fs-3 me-3"></i>
+                                <span class="fw-bold">User Personas</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center p-3 bg-body rounded-4 shadow-sm">
+                                <i class="bi bi-palette text-primary fs-3 me-3"></i>
+                                <span class="fw-bold">Visual Language</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center p-3 bg-body rounded-4 shadow-sm">
+                                <i class="bi bi-megaphone text-primary fs-3 me-3"></i>
+                                <span class="fw-bold">Brand Voice</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branding Functionality: Moodboard Grid -->
+    <section class="py-5 bg-body">
+        <div class="container py-5">
+            <h3 class="text-center fw-bold mb-5">Creative Process</h3>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div
+                        class="p-5 bg-body border text-center rounded-4 h-100 d-flex flex-column justify-content-center shadow-sm">
+                        <i class="bi bi-brush fs-1 text-primary mb-3"></i>
+                        <h5 class="fw-bold">Art Direction</h5>
+                        <p class="small text-muted mb-0">Visual harmony and style consistency across all touchpoints.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div
+                        class="p-5 bg-body border text-center rounded-4 h-100 d-flex flex-column justify-content-center shadow-sm">
+                        <i class="bi bi-type fs-1 text-primary mb-3"></i>
+                        <h5 class="fw-bold">Typography</h5>
+                        <p class="small text-muted mb-0">Custom font selection that speaks your brand's unique
+                            character.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div
+                        class="p-5 bg-body border text-center rounded-4 h-100 d-flex flex-column justify-content-center shadow-sm">
+                        <i class="bi bi-kanban fs-1 text-primary mb-3"></i>
+                        <h5 class="fw-bold">Brand Asset Mgmt</h5>
+                        <p class="small text-muted mb-0">Organized digital libraries for seamless brand implementation.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div
+                        class="p-5 bg-body border text-center rounded-4 h-100 d-flex flex-column justify-content-center shadow-sm">
+                        <i class="bi bi-gem fs-1 text-primary mb-3"></i>
+                        <h5 class="fw-bold">Brand Guidelines</h5>
+                        <p class="small text-muted mb-0">The definitive manual for your brand's future growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branding Focus: Testimonials -->
+    <section class="py-5 bg-body-tertiary">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Trusted by Visionaries</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <p class="text-muted">Hear from the brands that have transformed their identity with BrandEdge.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="p-4 bg-body rounded-5 shadow-sm border-0">
+                        <div class="mb-3 text-warning">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fst-italic text-muted mb-4">"BrandEdge completely redefined how our customers perceive
+                            us. The new identity is sleek, modern, and perfectly captures our essence."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://ui-avatars.com/api/?name=Sarah+Johnson&background=random"
+                                class="rounded-circle me-3" width="50">
+                            <div>
+                                <h6 class="fw-bold mb-0">Sarah Johnson</h6>
+                                <small class="text-primary">CEO, Nexus Tech</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-body rounded-5 shadow-sm border-0">
+                        <div class="mb-3 text-warning">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fst-italic text-muted mb-4">"The professionalism and creative depth they brought to
+                            our luxury line was unparalleled. Truly a top-tier partner."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://ui-avatars.com/api/?name=Marcus+Bell&background=random"
+                                class="rounded-circle me-3" width="50">
+                            <div>
+                                <h6 class="fw-bold mb-0">Marcus Bell</h6>
+                                <small class="text-primary">Director, Aura Cosmetics</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-body rounded-5 shadow-sm border-0">
+                        <div class="mb-3 text-warning">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fst-italic text-muted mb-4">"Their ability to translate abstract values into a
+                            cohesive visual language is magic. Our rebrand has seen a 40% increase in lead conversion."
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://ui-avatars.com/api/?name=Emma+Stone&background=random"
+                                class="rounded-circle me-3" width="50">
+                            <div>
+                                <h6 class="fw-bold mb-0">Emma Stone</h6>
+                                <small class="text-primary">Founder, GreenPath</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branding Focus: Call to Action -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="bg-primary rounded-5 p-5 text-center text-white shadow-lg overflow-hidden position-relative">
+                <div class="position-absolute top-0 start-0 w-100 h-100 opacity-25"
+                    style="background: radial-gradient(circle at 50% 50%, white, transparent);"></div>
+                <div class="position-relative z-1">
+                    <h2 class="display-4 fw-bold mb-4">Ready to Transform Your Brand?</h2>
+                    <p class="lead mb-5 px-lg-5">Join 500+ companies that have leveled up their brand identity with us.
+                        Let's create something iconic together.</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="contact.html" class="btn btn-light btn-lg px-5 fw-bold">Start a Project</a>
+                        <a href="services.html" class="btn btn-outline-light btn-lg px-5 fw-bold">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <a href="index.html" class="footer-logo">
+                        <i class="bi bi-intersect me-2 text-primary"></i> BrandEdge
+                    </a>
+                    <p class="opacity-75 mb-4">We are a premier branding and packaging agency dedicated to transforming
+                        visionary ideas into market-leading brand identities.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="home1.html">Home 1</a></li>
+                        <li><a href="home2.html">Home 2</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Categories</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Branding Strategy</a></li>
+                        <li><a href="#">Visual Identity</a></li>
+                        <li><a href="#">Eco-Packaging</a></li>
+                        <li><a href="#">Market Analysis</a></li>
+                        <li><a href="#">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5>Brand Identity</h5>
+                    <div class="position-relative">
+                        <img src="assets/img/branding_1.jpg" class="img-fluid footer-img shadow" alt="Brand Workspace">
+                        <div class="mt-3">
+                            <p class="small opacity-75 mb-0"><i class="bi bi-geo-alt me-2 text-primary"></i> 123 Design
+                                Blvd, Creative Suite 101</p>
+                            <p class="small opacity-75 mb-0"><i class="bi bi-telephone me-2 text-primary"></i> +1 (555)
+                                123-4567</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="opacity-25 mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0 small opacity-50">&copy; 2026 BrandEdge Agency. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="small opacity-50 me-3">Privacy Policy</a>
+                    <a href="#" class="small opacity-50">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
